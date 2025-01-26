@@ -1,0 +1,204 @@
+www-client/elinks       javascript ftp
+www-client/w3m          imlib
+media-libs/freetype     doc utils
+www-client/lynx         gnutls
+app-portage/layman      bazaar cvs git subversion
+dev-libs/libxml2        icu python
+dev-lang/python         sqlite
+dev-libs/boost          icu context
+# move sys-devel/gdb dev-debug/gdb
+dev-debug/gdb           expat multitarget
+# move dev-util/strace dev-debug/strace
+dev-debug/strace         aio static
+media-sound/cmus        mikmod modplug mp4 musepack wma
+app-misc/tmux           vim-syntax
+www-apps/cgit           highlight vhosts
+dev-vcs/git             cgi
+net-dns/bind            idn resolvconf
+net-dns/bind-tools      idn
+www-servers/nginx       aio vim-syntax
+mail-mta/postfix        mbox mysql sasl
+net-misc/tigervnc       server
+dev-vcs/git             bash-completion blksha1 cgi curl iconv perl python threads webdav cvs subversion
+dev-vcs/subversion      perl -dso
+media-libs/gd           fontconfig
+app-text/poppler        cairo
+net-misc/nxclient       cups
+app-text/ghostscript-gpl        cups
+dev-libs/openct         pcsc-lite usb
+net-libs/gnutls         pkcs11
+sys-auth/consolekit     policykit
+dev-python/pyside       webkit
+dev-libs/libpcre        abi_x86_32
+dev-libs/libpcre2       pcre16
+virtual/libintl         abi_x86_32
+sys-apps/man-pages              ja      zh_CN
+dev-python/numpy                lapack
+dev-python/PyQt4                compat
+net-wireless/gnuradio           atsc channels examples dtv fec grc log noaa pager performance-counters portaudio sdl trellis uhd vocoder wavelet wxwidgets zeromq  python_single_target_python2_7
+media-libs/libsdl                       aalib fbcon libcaca tslib xinerama xv
+media-libs/libsdl2                      gles gles2
+media-libs/opencv                       gtk
+x11-base/xorg-server            wayland
+dev-libs/wayland                        abi_x86_32
+media-libs/mesa                         bindist gles1 gles2 X opencl vaapi vdpau zink
+x11-apps/mesa-progs                     egl gles2
+x11-libs/libxcb                         xkb
+x11-libs/cairo                          xcb
+x11-libs/pango                          introspection
+mail-client/mutt        mbox imap pop sasl smtp gpg idn berkdb -gdbm -tokyocabinet -lmdb slang smime
+media-gfx/imagemagick           -wmf
+sci-libs/armadillo                      blas lapack
+media-plugins/alsa-plugins              pulseaudio
+media-video/ffmpeg                      -ladspa chromium cpudetection fontconfig gnutls gsm -kvazaar libcaca libsoxr lzma openal opus pulseaudio schroedinger snappy ssh vaapi vdpau
+net-misc/networkmanager                                 -bluetooth introspection
+dev-libs/libical                        introspection
+>=x11-libs/cairo-1.16.0-r3 X
+>=x11-libs/wxGTK-3.0.4-r301 X libnotify gstreamer opengl
+>=media-libs/imlib2-1.5.1-r1 X
+>=x11-libs/gtk+-3.24.17 X
+# required by x11-libs/gtk+-3.24.17::gnome-kit
+# required by x11-themes/adwaita-icon-theme-3.34.3-r1::gnome-kit
+# required by x11-libs/gtk+-2.24.32-r2::gnome-kit
+# required by gnome-base/libglade-2.6.4-r4::gnome-kit
+# required by dev-python/pygtk-2.24.0-r7::gnome-kit
+# required by @selected
+# required by @world (argument)
+>=media-libs/libepoxy-1.5.2 X
+media-libs/libglvnd     X
+# required by x11-libs/gtk+-3.24.20::gnome-kit
+# required by dev-python/pygobject-3.36.0::gnome-kit
+# required by net-misc/networkmanager-1.26.0::net-kit[-test,introspection]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/atk-2.35.1 introspection
+# required by x11-libs/gtk+-3.24.20::gnome-kit
+# required by dev-python/pygobject-3.36.0::gnome-kit
+# required by net-misc/networkmanager-1.26.0::net-kit[-test,introspection]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/gdk-pixbuf-2.40.0-r1 introspection
+# required by dev-python/pygobject-3.36.0::gnome-kit
+# required by net-misc/networkmanager-1.26.0::net-kit[-test,introspection]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/gtk+-3.24.20 introspection
+media-libs/libcaca              python_single_target_python2_7
+net-misc/wget                   cookie_check debug gnutls idn libressl uuid
+net-analyzer/nmap               ncat nping
+dev-qt/qtgui                    egl eglfs ibus dbus
+media-sound/mpg123              portaudio pulseaudio
+media-video/vlc                 X archive dav1d gstreamer shout tremor run-as-root truetype -libtiger
+net-misc/aria2                  adns bittorrent libuv metalink sqlite ssh xmlrpc
+media-video/mpv                 X libcaca libmpv vaapi vdpau
+# move x11-libs/libva media-libs/libva
+media-libs/libva                  X
+# required by app-editors/gedit-3.36.2::gnome-kit
+# required by gedit (argument)
+>=dev-libs/libpeas-1.26.0 gtk
+# required by sys-auth/consolekit-1.2.1::core-kit
+# required by sys-auth/polkit-0.119-r2::gnome-kit[-elogind]
+# required by sys-fs/udisks-2.8.4::gnome-kit
+# required by gnome-base/gvfs-1.44.1::gnome-kit[udisks]
+# required by app-editors/gedit-3.36.2::gnome-kit
+# required by gedit (argument)
+>=dev-libs/glib-2.64.6 dbus
+# required by net-analyzer/smokeping-2.7.3::net-kit
+# required by net-analyzer/smokeping (argument)
+>=net-analyzer/fping-4.2 suid
+# required by net-analyzer/smokeping-2.7.3::net-kit
+# required by net-analyzer/smokeping (argument)
+>=net-analyzer/rrdtool-1.7.0-r1 graph
+net-analyzer/smokeping        -apache2 dig echoping
+sys-apps/lshw                           sqlite
+net-analyzer/echoping                   http icp idn priority smtp tos
+www-client/firefox                              dbus
+# required by sys-apps/fchroot-1.0.2::core-kit
+# required by fchroot (argument)
+>=app-emulation/qemu-7.1.0 qemu_user_targets_ppc64
+
+# required by www-client/firefox-121.0::browser-kit[X]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libxkbcommon-1.4.1 X
+sys-apps/busybox -pam
+sys-process/htop        hwloc lm_sensors
+app-text/ghostscript-gpl        -cups
+# required by media-video/vlc-3.0.18::media-kit
+# required by @selected
+# required by @world (argument)
+>=sys-libs/zlib-1.3.1 minizip
+# required by dev-python/wxpython-4.0.6::desktop-kit
+# required by @selected
+# required by @world (argument)
+>=x11-libs/wxGTK-3.0.4-r301 sdl
+
+dev-util/perf   -doc
+sys-kernel/debian-sources       binary
+media-libs/aalib                slang
+sys-libs/ncurses        tinfo
+# required by net-print/cups-filters-1.28.17::desktop-kit[postscript]
+# required by net-print/cups-2.2.11-r1::desktop-kit
+# required by cups (argument)
+>=app-text/ghostscript-gpl-9.53.3-r2 cups
+net-wireless/bluez      -cups
+app-i18n/ibus           X
+# required by app-i18n/ibus-1.5.30::i18n-kit
+# required by dev-qt/qtgui-5.15.2_p20240408::qt-kit[ibus]
+# required by dev-qt/qtdeclarative-5.15.2_p20240314::qt-kit
+# required by dev-qt/qtwayland-5.15.2_p20240314::qt-kit
+>=sys-apps/dbus-1.12.20 X
+# required by x11-misc/xdg-utils-1.2.1-r6::gentoo
+# required by www-client/google-chrome-127.0.6533.72::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-text/xmlto-0.0.28-r11 text
+# required by www-client/firefox-115.13.0::gentoo[system-libvpx]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libvpx-1.13.1-r1 postproc
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[wifi,-iwd]
+# required by @selected
+# required by @world (argument)
+>=net-wireless/wpa_supplicant-2.10-r4 dbus
+# required by gnome-base/gnome-keyring-42.1-r2::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.21.1::gentoo
+>=app-crypt/gcr-3.41.1-r2:0 gtk
+# required by net-wireless/gnuradio-3.10.9.2-r5::gentoo[python_single_target_python3_12]
+# required by gnuradio (argument)
+>=dev-libs/boost-1.85.0-r1 python
+# required by net-wireless/gnuradio-3.10.9.2-r5::gentoo[qt5,python_single_target_python3_12]
+# required by gnuradio (argument)
+>=dev-python/PyQt5-5.15.11 opengl gui widgets
+# required by dev-python/matplotlib-3.9.1::gentoo[-test]
+# required by net-wireless/gnuradio-3.10.9.2-r5::gentoo[utils,python_single_target_python3_12]
+# required by gnuradio (argument)
+>=dev-python/pillow-10.4.0 webp
+# required by dev-python/matplotlib-3.9.1::gentoo[-test]
+# required by net-wireless/gnuradio-3.10.9.2-r5::gentoo[utils,python_single_target_python3_12]
+# required by gnuradio (argument)
+>=virtual/imagemagick-tools-1 tiff
+# required by virtual/imagemagick-tools-1::gentoo[-svg]
+# required by dev-python/matplotlib-3.9.1::gentoo[-test]
+# required by net-wireless/gnuradio-3.10.9.2-r5::gentoo[utils,python_single_target_python3_12]
+# required by gnuradio (argument)
+>=media-gfx/imagemagick-7.1.1.25 tiff
+# required by net-wireless/gnuradio-3.10.9.2-r5::gentoo[filter,python_single_target_python3_12]
+# required by gnuradio (argument)
+>=dev-python/pyqtgraph-0.13.7 opengl
+# required by net-libs/webkit-gtk-2.44.1-r600::gentoo
+# required by webkit-gtk (argument)
+>=media-libs/harfbuzz-8.5.0 icu
+# required by net-libs/webkit-gtk-2.44.1-r600::gentoo[gstreamer]
+# required by webkit-gtk (argument)
+>=media-libs/gst-plugins-base-1.22.11-r1 opengl
+
+media-video/pipewire	extra
+media-sound/moc		-ffmpeg -timidity
+# required by dev-qt/qtx11extras-5.15.16::gentoo
+# required by media-video/vlc-3.0.21-r1::gentoo[X,gui]
+# required by vlc (argument)
+>=dev-qt/qtgui-5.15.16 X
+
+gui-libs/gtk	X

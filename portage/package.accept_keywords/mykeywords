@@ -1,0 +1,9 @@
+app-misc/icdiff		~amd64
+net-vpn/tailscale	~amd64
+virtual/rust		~amd64
+dev-lang/rust-bin	~amd64
+dev-lang/rust		~amd64
+media-libs/mesa		~amd64
+dev-libs/libthai	~amd64
+dev-libs/libdatrie	~amd64
+sys-apps/pnpm		~amd64
