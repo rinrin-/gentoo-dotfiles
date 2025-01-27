@@ -7,3 +7,4 @@ media-libs/mesa		~amd64
 dev-libs/libthai	~amd64
 dev-libs/libdatrie	~amd64
 sys-apps/pnpm		~amd64
+ app-misc/yazi		~amd64
