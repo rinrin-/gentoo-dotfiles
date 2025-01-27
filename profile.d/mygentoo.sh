@@ -2,7 +2,7 @@
 #
 
 # create an alias to run yadm for system files
-alias sysyadm="sudo yadm --yadm-dir /etc/yadm --yadm-data /etc/yadm/data"
+alias sysyadm="sudo -E yadm --yadm-dir /etc/yadm --yadm-data /etc/yadm/data"
 
 if command -v portageq >/dev/null 2>&1; then
    videocards=$(portageq envvar VIDEO_CARDS)

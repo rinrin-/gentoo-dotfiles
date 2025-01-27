@@ -202,3 +202,4 @@ media-sound/moc		-ffmpeg -timidity
 >=dev-qt/qtgui-5.15.16 X
 
 gui-libs/gtk	X
+media-gfx/graphicsmagick	static-libs
