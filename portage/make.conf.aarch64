@@ -1,0 +1,35 @@
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+#GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block -ftree-vectorize -fomit-frame-pointer"
+GRAPHITE="-ftree-vectorize -fomit-frame-pointer"
+#COMMON_FLAGS="-O2 -pipe -march=armv8-a+crc+crypto -mcpu=cortex-a72.cortex-a53 ${GRAPHITE}"
+COMMON_FLAGS="-O2 -pipe -march=armv8-a+crc+crypto ${GRAPHITE}"
+CPU_FLAGS_ARM="edsp neon thumb vfp vfpv3 vfpv4 vfp-d32 crc32 v4 v5 v6 v7 v8 thumb2"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+#FCFLAGS="${COMMON_FLAGS}"
+#CXXFLAGS="${CFLAGS}"
+
+# WARNING: Changing your CHOST is not something that should be done lightly.
+# Please consult https://wiki.gentoo.org/wiki/Changing_the_CHOST_variable before changing.
+CHOST="aarch64-unknown-linux-gnu"
+ACCEPT_KEYWORDS="~arm64"
+
+# NOTE: This stage was built with the bindist USE flag enabled
+
+# This sets the language of build output to English.
+# Please keep this setting intact when reporting bugs.
+LC_MESSAGES=C.utf8
+
+GENTOO_MIRRORS="https://mirrors.163.com/gentoo/"
+
+USE="cscope cjk bash-completion unicode curl branding jpeg udev pam nls aac -X -gtk ipv6 vhosts imap libwww maildir sasl ssl dlz png nptl directfb smartcard wayland threads introspection pulseaudio fontconfig truetype alsa"
+
+NGINX_MODULES_HTTP="access auth_basic autoindex browser charset empty_gif fastcgi geo gzip limit_req limit_zone map memcached proxy referer rewrite scgi split_clients ssi upstream_ip_hash userid uwsgi addition geoip secure_link stub_status"
+
+ACCEPT_LICENSE="*"
+
+MAKEOPTS="-j1"

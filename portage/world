@@ -12,7 +12,6 @@ app-arch/unrar
 app-arch/unzip
 app-containers/docker
 app-containers/docker-cli
-app-editors/gedit
 app-editors/vim
 app-eselect/eselect-repository
 app-misc/cmatrix
@@ -99,6 +98,7 @@ net-analyzer/dnsenum
 net-analyzer/hping
 net-analyzer/iftop
 net-analyzer/jnettop
+net-analyzer/macchanger
 net-analyzer/mtr
 net-analyzer/nettop
 net-analyzer/nmap
@@ -125,6 +125,7 @@ net-misc/dhcpcd
 net-misc/httpie
 net-misc/ifenslave
 net-misc/networkmanager
+net-misc/ntp
 net-misc/openssh
 net-misc/socat
 net-misc/telnet-bsd
@@ -149,6 +150,7 @@ sys-apps/portage
 sys-apps/progress
 sys-apps/pv
 sys-apps/usbutils
+sys-auth/polkit
 sys-devel/bc
 sys-devel/crossdev
 sys-fs/cryptsetup
