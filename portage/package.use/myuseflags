@@ -93,7 +93,7 @@ net-misc/wget                   imlib python_single_target_python2_7
 net-analyzer/nmap               ncat nping
 dev-qt/qtgui                    egl eglfs ibus dbus X
 media-sound/mpg123              -portaudio pulseaudio
-media-video/vlc                 archive dav1d gstreamer projectm -shout tremor run-as-root -gme -libtiger -musepack -sid -portaudio -svg
+media-video/vlc                 archive dav1d gstreamer projectm -shout tremor run-as-root -gme -libtiger -musepack -sid -portaudio -svg truetype X
 media-video/mpv                 X libcaca libmpv vaapi vdpau
 media-libs/libva                  X
 # required by app-editors/gedit-3.36.2::gnome-kit
