@@ -53,7 +53,7 @@ mail-client/mutt				mbox imap pop sasl smtp gpg idn berkdb -gdbm -tokyocabinet -
 media-gfx/imagemagick           -wmf tiff
 sci-libs/armadillo                      blas lapack
 media-plugins/alsa-plugins              pulseaudio
-media-video/ffmpeg                      -ladspa chromium cpudetection fontconfig gnutls gsm -kvazaar libcaca -libsoxr lzma openal opus pulseaudio schroedinger snappy ssh -gme -svg gmp jack jpeg2k jpegxl libaom libass librtmp mp3 opengl openssl vaapi x264 x265 xvid
+media-video/ffmpeg                      -ladspa chromium cpudetection fontconfig gnutls gsm -kvazaar libcaca -libsoxr lzma openal opus pulseaudio schroedinger snappy ssh -gme -svg gmp jack jpeg2k jpegxl libaom libass librtmp mp3 opengl openssl vaapi x264 x265 xvid vdpau
 net-misc/networkmanager                 -bluetooth introspection
 dev-libs/libical                        introspection
 media-libs/opus							custom-modes
@@ -162,10 +162,7 @@ media-libs/imlib2	X -svg
 >=app-crypt/gcr-3.41.1-r2:0 gtk
 # required by net-libs/webkit-gtk-2.46.5-r410::gentoo
 >=media-libs/libvpx-1.13.1-r1 postproc
-# required by net-libs/webkit-gtk-2.46.5-r410::gentoo
-# required by @selected
-# required by @world (argument)
->=media-libs/harfbuzz-10.2.0 icu
+media-libs/harfbuzz		icu
 # required by net-libs/webkit-gtk-2.46.5-r410::gentoo[gstreamer]
 # required by @selected
 # required by @world (argument)
