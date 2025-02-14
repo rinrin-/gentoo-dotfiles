@@ -12,6 +12,7 @@ app-arch/unrar
 app-arch/unzip
 app-containers/docker
 app-containers/docker-cli
+app-editors/gedit
 app-editors/vim
 app-eselect/eselect-repository
 app-misc/cmatrix
@@ -20,9 +21,11 @@ app-misc/linux-logo
 app-misc/nnn
 app-misc/terminal-colors
 app-misc/tmux
+app-misc/yazi
 app-portage/eix
 app-portage/gentoolkit
 app-portage/portage-utils
+app-shells/fzf
 app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-shells/zsh-completions
@@ -47,6 +50,7 @@ dev-libs/mpc
 dev-libs/mpfr
 dev-libs/openct
 dev-libs/opensc
+dev-libs/pugixml
 dev-python/jinja2
 dev-python/lxml
 dev-python/mako
@@ -80,9 +84,11 @@ media-libs/libcaca
 media-libs/libexif
 media-libs/libjpeg-turbo
 media-libs/libpng
+media-libs/libraw
 media-libs/libsdl
 media-libs/libsixel
 media-libs/mesa
+media-libs/openexr
 media-libs/tiff
 media-sound/alsa-utils
 media-sound/cmus
@@ -98,7 +104,6 @@ net-analyzer/dnsenum
 net-analyzer/hping
 net-analyzer/iftop
 net-analyzer/jnettop
-net-analyzer/macchanger
 net-analyzer/mtr
 net-analyzer/nettop
 net-analyzer/nmap
@@ -125,7 +130,6 @@ net-misc/dhcpcd
 net-misc/httpie
 net-misc/ifenslave
 net-misc/networkmanager
-net-misc/ntp
 net-misc/openssh
 net-misc/socat
 net-misc/telnet-bsd
@@ -150,7 +154,6 @@ sys-apps/portage
 sys-apps/progress
 sys-apps/pv
 sys-apps/usbutils
-sys-auth/polkit
 sys-devel/bc
 sys-devel/crossdev
 sys-fs/cryptsetup
@@ -162,7 +165,7 @@ sys-fs/reiserfsprogs
 sys-fs/xfsprogs
 sys-kernel/genkernel
 sys-kernel/linux-firmware
-sys-kernel/wsl2-sources
+sys-kernel/wsl2-sources:5.15.167.4
 sys-libs/libtermcap-compat
 sys-libs/talloc
 sys-power/powertop
