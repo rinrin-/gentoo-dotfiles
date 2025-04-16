@@ -48,12 +48,13 @@ media-libs/mesa                         bindist gles1 gles2 X opencl vaapi vdpau
 x11-apps/mesa-progs                     egl gles2
 x11-libs/libxcb                         xkb
 x11-libs/cairo                          xcb
+dev-python/pycairo			X
 x11-libs/pango                          introspection
 mail-client/mutt				mbox imap pop sasl smtp gpg idn berkdb -gdbm -tokyocabinet -lmdb slang smime
 media-gfx/imagemagick           -wmf tiff
 sci-libs/armadillo                      blas lapack
 media-plugins/alsa-plugins              pulseaudio
-media-video/ffmpeg                      -ladspa chromium cpudetection fontconfig gnutls gsm -kvazaar libcaca -libsoxr lzma openal opus pulseaudio schroedinger snappy ssh -gme -svg gmp jack jpeg2k jpegxl libaom libass librtmp mp3 opengl openssl vaapi x264 x265 xvid vdpau
+media-video/ffmpeg                      -ladspa chromium cpudetection fontconfig gnutls gsm -kvazaar libcaca -libsoxr lzma openal opus pulseaudio schroedinger snappy ssh -gme -svg jack jpeg2k jpegxl libaom libass librtmp mp3 opengl openssl vaapi x264 x265 xvid vdpau
 net-misc/networkmanager                 -bluetooth introspection
 dev-libs/libical                        introspection
 media-libs/opus							custom-modes
@@ -174,3 +175,14 @@ media-libs/libprojectm qt5
 media-video/pipewire   extra
 media-sound/moc                -ffmpeg -timidity
 
+# required by app-i18n/ibus-1.5.31-r1::gentoo[gtk4]
+# required by dev-qt/qtgui-5.15.16::gentoo[ibus]
+# required by dev-qt/qtx11extras-5.15.16::gentoo
+# required by media-video/vlc-3.0.21_p20250212::gentoo[X,gui]
+# required by @selected
+# required by @world (argument)
+>=gui-libs/gtk-4.16.12 X
+# required by dev-python/pycairo-1.27.0-r1::gentoo[-test]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/cairo-1.18.4 -X
