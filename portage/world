@@ -37,7 +37,7 @@ dev-debug/ltrace
 dev-debug/strace
 dev-debug/valgrind
 dev-lang/go
-dev-lang/rust
+dev-lang/rust-bin
 dev-libs/boost
 dev-libs/glib
 dev-libs/gmp
@@ -121,7 +121,6 @@ net-dns/libidn
 net-firewall/nftables
 net-ftp/lftp
 net-libs/nodejs
-net-libs/webkit-gtk
 net-libs/webkit-gtk:4.1
 net-misc/aria2
 net-misc/bird

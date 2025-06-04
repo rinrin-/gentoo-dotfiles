@@ -186,3 +186,14 @@ media-sound/moc                -ffmpeg -timidity
 # required by @selected
 # required by @world (argument)
 >=x11-libs/cairo-1.18.4 -X
+# required by gui-libs/gtk-4.16.12-r1::gentoo
+# required by app-i18n/ibus-1.5.31-r1::gentoo[gtk4]
+# required by dev-qt/qtgui-5.15.16::gentoo[ibus]
+# required by media-video/vlc-3.0.21_p20250217-r2::gentoo[gui]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/cairo-1.18.4 X
+# required by media-video/mpv-0.40.0-r2::gentoo[vulkan]
+# required by @selected
+# required by @world (argument)
+>=media-libs/vulkan-loader-1.4.309.0 X
