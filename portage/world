@@ -62,6 +62,7 @@ dev-util/cppunit
 dev-util/dialog
 dev-util/gdbus-codegen
 dev-util/glib-utils
+dev-util/intltool
 dev-vcs/git
 mail-client/mutt
 mail-mta/postfix
@@ -121,7 +122,6 @@ net-dns/libidn
 net-firewall/nftables
 net-ftp/lftp
 net-libs/nodejs
-net-libs/webkit-gtk:4.1
 net-misc/aria2
 net-misc/bird
 net-misc/bridge-utils
@@ -154,7 +154,9 @@ sys-apps/progress
 sys-apps/pv
 sys-apps/usbutils
 sys-devel/bc
+sys-devel/bin86
 sys-devel/crossdev
+sys-devel/dev86
 sys-fs/cryptsetup
 sys-fs/dosfstools
 sys-fs/fuse
@@ -172,6 +174,7 @@ sys-process/btop
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
+sys-process/time
 www-client/google-chrome
 www-client/links
 www-client/w3m

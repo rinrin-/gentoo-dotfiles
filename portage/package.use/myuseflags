@@ -7,7 +7,8 @@ app-portage/layman      bazaar cvs git subversion
 dev-libs/libxml2        icu python
 dev-lang/python         sqlite
 dev-libs/boost          icu context
-sys-devel/gdb           expat multitarget
+# move sys-devel/gdb dev-debug/gdb
+dev-debug/gdb           expat multitarget
 # move dev-util/strace dev-debug/strace
 dev-debug/strace         aio static
 media-sound/cmus        mikmod modplug mp4 musepack wma
@@ -96,7 +97,8 @@ dev-qt/qtgui                    egl eglfs ibus dbus X
 media-sound/mpg123              -portaudio pulseaudio
 media-video/vlc                 archive dav1d gstreamer projectm -shout tremor run-as-root -gme -libtiger -musepack -sid -portaudio -svg truetype X
 media-video/mpv                 X libcaca libmpv vaapi vdpau
-media-libs/libva                  X
+media-libs/libva                X
+sys-libs/zlib			static-libs
 # required by app-editors/gedit-3.36.2::gnome-kit
 # required by gedit (argument)
 >=dev-libs/libpeas-1.26.0 gtk
