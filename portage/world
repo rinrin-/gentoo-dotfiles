@@ -14,6 +14,7 @@ app-containers/docker
 app-containers/docker-cli
 app-editors/gedit
 app-editors/vim
+app-eselect/eselect-python
 app-eselect/eselect-repository
 app-misc/cmatrix
 app-misc/icdiff
@@ -175,6 +176,7 @@ sys-process/htop
 sys-process/iotop
 sys-process/lsof
 sys-process/time
+www-client/firefox
 www-client/google-chrome
 www-client/links
 www-client/w3m
@@ -183,6 +185,9 @@ x11-apps/xcalc
 x11-apps/xclock
 x11-apps/xkbutils
 x11-libs/gtk+
+x11-libs/libnotify
 x11-misc/vdpauinfo
 x11-misc/xkeyboard-config
+x11-terms/kitty
 x11-terms/sakura
+x11-terms/xterm

@@ -33,3 +33,5 @@ NGINX_MODULES_HTTP="access auth_basic autoindex browser charset empty_gif fastcg
 ACCEPT_LICENSE="*"
 
 MAKEOPTS="-j1"
+
+L10N="en-US zh-CN zh-TW ja"
