@@ -24,7 +24,7 @@ ACCEPT_KEYWORDS="~arm64"
 # Please keep this setting intact when reporting bugs.
 LC_MESSAGES=C.utf8
 
-GENTOO_MIRRORS="https://mirrors.163.com/gentoo/"
+GENTOO_MIRRORS="https://mirrors.aliyun.com/gentoo/"
 
 USE="cscope cjk bash-completion unicode curl branding jpeg udev pam nls aac -X -gtk ipv6 vhosts imap libwww maildir sasl ssl dlz png nptl directfb smartcard wayland threads introspection pulseaudio fontconfig truetype alsa"
 

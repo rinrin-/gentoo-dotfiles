@@ -153,6 +153,7 @@ sys-apps/pnpm
 sys-apps/portage
 sys-apps/progress
 sys-apps/pv
+sys-apps/usb_modeswitch
 sys-apps/usbutils
 sys-devel/bc
 sys-devel/bin86
@@ -171,6 +172,7 @@ sys-kernel/wsl2-sources:5.15.167.4
 sys-libs/libtermcap-compat
 sys-libs/talloc
 sys-power/powertop
+sys-power/uhubctl
 sys-process/btop
 sys-process/htop
 sys-process/iotop
